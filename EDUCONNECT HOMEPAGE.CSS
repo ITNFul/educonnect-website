@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Soft light blue */
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #00695c; /* Deep teal */
+    color: white;
+    padding: 50px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 40px 20px;
+    background-color: #ffffff; /* White background */
+    margin-top: -20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #00796b; /* Greenish tone */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Button Styles */
+.button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #00695c, #00796b);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #00796b, #00695c);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00695c;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
